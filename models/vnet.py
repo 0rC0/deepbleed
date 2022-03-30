@@ -11,7 +11,7 @@ tensorflow version: 2.0.0-beta1
 
 import tensorflow as tf
 from tensorflow.keras import layers
-from blocks.vnet import VNetDownBlock, VNetUpBlock, VNetInBlock, VNetOutBlock
+from ..blocks.vnet import VNetDownBlock, VNetUpBlock, VNetInBlock, VNetOutBlock
 
 """
 Model below is the VNet architecture for volumetric anatomic segmentation, 
