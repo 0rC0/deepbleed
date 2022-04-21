@@ -26,6 +26,8 @@ from tools import parse
 from preprocess import extract, register, convert
 from models.vnet import VNet
 
+import sys
+sys.path.append(os.path.getcwd())
 # load command line arguments
 setup = parse.args('predict')
 verbose = setup.verbose
